@@ -1,0 +1,60 @@
+html {
+    background: radial-gradient(211.21% 130.35% at 50% 132.38%, #E1E1E1 0%, #FFFFFF 100%);
+    text-transform: uppercase;
+    height: 100%;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.login-title {
+    color: grey;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-right: 4em;
+    font-size: 20px;
+    margin-top: 3em;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: gray;
+    margin-left: 15px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.subtext {
+    font-size: 30px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.login-element {
+    margin-bottom: 15px;
+    width: 200px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
